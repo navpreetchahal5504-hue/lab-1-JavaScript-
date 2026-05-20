@@ -82,3 +82,16 @@ function decreaseAge() {
    
     updateDescription();
 }
+
+// Function to update the character's description after changing age
+function updateDescription() {
+    let randomPower =
+        specialPowers[Math.floor(Math.random() * specialPowers.length)];
+
+    let description = `Meet ${characterName}, a ${age}-year-old ${
+        isSuperhero ? "superhero" : "troublemaker"
+    } who loves ${favoriteFood} and ${randomPower}!`;
+
+    document.querySelector("#characterDescription").textContent =
+        description;
+}
