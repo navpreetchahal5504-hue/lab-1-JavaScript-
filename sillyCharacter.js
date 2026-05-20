@@ -42,8 +42,8 @@ let favoriteFood = "Pizza";
 
 let specialPowers = [
     "can fly faster than light",
-    "shoots spagetti from hands",
-    "talks to squireels",
+    "shoots spaghetti from hands",
+    "talks to squirrel",
     "turns homework into cookies"
 ];
 
