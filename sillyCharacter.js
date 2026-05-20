@@ -29,4 +29,20 @@ Create and Manipulate Strings:
 
 Use string manipulation to generate a funny description of the character 
 based on the data. You can concatenate strings or use template literals to 
-display the character's attributes in a creative and humorous w
+display the character's attributes in a creative and humorous ways.
+*/
+
+
+// Declare and initialize variables
+
+let characterName = "Captain Waffles";
+let age = 25;
+let isSuperhero = true;
+let favoriteFood = "Pizza";
+
+let specialPowers = [
+    "can fly faster than light",
+    "shoots spagetti from hands",
+    "talks to squireels",
+    "turns homework into cookies"
+];
