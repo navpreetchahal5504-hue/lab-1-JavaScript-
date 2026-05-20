@@ -68,3 +68,17 @@ function generateCharacter() {
        description;
     
 }
+
+// Functions to update character's age
+function increaseAge() {
+    age++;
+    updateDescription();
+}
+
+function decreaseAge() {
+    if (age > 1) {
+    age--;
+    }
+   
+    updateDescription();
+}
