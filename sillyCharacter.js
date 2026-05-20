@@ -46,3 +46,25 @@ let specialPowers = [
     "talks to squireels",
     "turns homework into cookies"
 ];
+
+// Function to generate a random character description
+
+function generateCharacter() {
+   
+    // Random age
+    age = Math.floor(Math.random() *80) + 10;
+
+    // Random power
+    let randomPower =
+    specialPowers[Math.floor(Math.random() *specialPowers.length)];
+    
+   // Funny description
+   let description = `Meet ${characterName}, a ${age}-year-old ${
+        isSuperhero ? "superhero" : "troublemaker"
+    } who loves ${favoriteFood} and ${randomPower}!`;
+
+   // Display description
+   document.querySelector("#characterDescription").textContent =
+       description;
+    
+}
